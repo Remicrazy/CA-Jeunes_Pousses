@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "106867718494",
+    "firebase_url": "https://jeune-pousses-firebase.firebaseio.com",
+    "project_id": "jeune-pousses-firebase",
+    "storage_bucket": "jeune-pousses-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106867718494:android:30d4f70624fee63086f7cf",
+        "android_client_info": {
+          "package_name": "com.example.jeunes_pousses"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106867718494-739jrl7nd0f3chbm0afcgfmuval78sl1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkpE2HUZEVbC6Oz9hlf02HHpv0q4vVpe8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106867718494-739jrl7nd0f3chbm0afcgfmuval78sl1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
