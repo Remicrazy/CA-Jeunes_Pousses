@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:jeunes_pousses/screens/home.dart';
+import 'package:jeunes_pousses/screens/test.dart';
 
 void main() {
   runApp(MyApp());
@@ -28,6 +29,7 @@ class _MyBottomNavigationBarState extends State<MyBottomNavigationBar> {
   int _currentIndex = 0;
   final List<Widget> _children = [
     MyHomeScreen(), //name of other screen
+    Testingnav() //Checking Nav
   ];
   void onTappedBar(int index) {
     setState(() {
@@ -52,6 +54,8 @@ class _MyBottomNavigationBarState extends State<MyBottomNavigationBar> {
           //     icon: Icon(Icons.check_circle_outline), title: Text('Objectifs')),
           // BottomNavigationBarItem(
           //     icon: Icon(Icons.credit_card), title: Text('Services')),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.check_circle), title: Text('Testing')),
         ],
       ),
     );
